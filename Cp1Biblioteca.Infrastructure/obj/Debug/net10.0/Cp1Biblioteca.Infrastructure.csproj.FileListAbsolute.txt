@@ -1,0 +1,11 @@
+C:\Chalkboard\NET\Cp1Biblioteca\Cp1Biblioteca.Infrastructure\bin\Debug\net10.0\Cp1Biblioteca.Infrastructure.deps.json
+C:\Chalkboard\NET\Cp1Biblioteca\Cp1Biblioteca.Infrastructure\bin\Debug\net10.0\Cp1Biblioteca.Infrastructure.dll
+C:\Chalkboard\NET\Cp1Biblioteca\Cp1Biblioteca.Infrastructure\bin\Debug\net10.0\Cp1Biblioteca.Infrastructure.pdb
+C:\Chalkboard\NET\Cp1Biblioteca\Cp1Biblioteca.Infrastructure\obj\Debug\net10.0\Cp1Biblioteca.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Chalkboard\NET\Cp1Biblioteca\Cp1Biblioteca.Infrastructure\obj\Debug\net10.0\Cp1Biblioteca.Infrastructure.AssemblyInfoInputs.cache
+C:\Chalkboard\NET\Cp1Biblioteca\Cp1Biblioteca.Infrastructure\obj\Debug\net10.0\Cp1Biblioteca.Infrastructure.AssemblyInfo.cs
+C:\Chalkboard\NET\Cp1Biblioteca\Cp1Biblioteca.Infrastructure\obj\Debug\net10.0\Cp1Biblioteca.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Chalkboard\NET\Cp1Biblioteca\Cp1Biblioteca.Infrastructure\obj\Debug\net10.0\Cp1Biblioteca.Infrastructure.dll
+C:\Chalkboard\NET\Cp1Biblioteca\Cp1Biblioteca.Infrastructure\obj\Debug\net10.0\refint\Cp1Biblioteca.Infrastructure.dll
+C:\Chalkboard\NET\Cp1Biblioteca\Cp1Biblioteca.Infrastructure\obj\Debug\net10.0\Cp1Biblioteca.Infrastructure.pdb
+C:\Chalkboard\NET\Cp1Biblioteca\Cp1Biblioteca.Infrastructure\obj\Debug\net10.0\ref\Cp1Biblioteca.Infrastructure.dll
