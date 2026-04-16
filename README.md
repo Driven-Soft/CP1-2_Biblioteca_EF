@@ -78,4 +78,7 @@ O banco `biblioteca.db` será criado automaticamente na pasta do projeto Api.
 <hr/>
 
 ### Imagem do MER (disponível em docs/MER.png)
-<img width="1044" height="442" alt="image" src="https://github.com/user-attachments/assets/dab5f583-5920-492d-878a-47a09b7f0e5e" />
+<img width="1044" height="442" alt="image" src="./docs/MER.png" />
+
+### Imagem do schema do banco (disponível em docs/SCHEMA.png)
+<img width="1044" height="442" alt="image" src="./docs/SCHEMA.png" />
