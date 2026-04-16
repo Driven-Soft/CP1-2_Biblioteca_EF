@@ -1,0 +1,27 @@
+# Build
+bin/
+obj/
+
+# SQLite
+*.db
+*.db-shm
+*.db-wal
+
+# Segredos e configurações locais
+appsettings.Development.json
+*.user
+*.suo
+
+# Rider/JetBrains
+.idea/
+
+# Visual Studio
+.vs/
+
+# NuGet
+*.nupkg
+packages/
+
+# OS
+.DS_Store
+Thumbs.db

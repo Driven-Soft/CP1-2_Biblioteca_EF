@@ -14,8 +14,8 @@ builder.Services.AddOpenApi();
 
 builder.Services.AddDbContext<BibliotecaContext>(options =>
 {
-    var connectionString = builder.Configuration.GetConnectionString("BibliotecaMySQL");
-    options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
+    var connectionString = builder.Configuration.GetConnectionString("BibliotecaDB");
+    options.UseSqlite(connectionString);
 });
 
 // Repositórios

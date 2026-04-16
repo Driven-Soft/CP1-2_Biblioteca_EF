@@ -1,4 +1,4 @@
-﻿# CP1 - .NET
+﻿# Biblioteca API - CP1 e CP2
 
 ### Integrantes do grupo
 
@@ -44,7 +44,38 @@
   - Uma categoria pode conter vários livros.
 
 <hr/>
- 
-### Imagem do MER (disponível em docs/BibliotecaMER.png)
-<img width="1044" height="442" alt="image" src="https://github.com/user-attachments/assets/dab5f583-5920-492d-878a-47a09b7f0e5e" />
 
+### SGBD utilizado
+
+- SQLite (via `Microsoft.EntityFrameworkCore.Sqlite`)
+
+<hr/>
+
+### Como executar
+
+**Pré-requisitos:** .NET 10 SDK instalado.
+
+```bash
+# Restaurar dependências
+dotnet restore
+
+# Aplicar migrations e criar o banco
+dotnet ef database update --project Cp1Biblioteca.Infrastructure --startup-project Cp1Biblioteca.Api
+
+# Rodar a aplicação
+dotnet run --project Cp1Biblioteca.Api
+```
+
+O banco `biblioteca.db` será criado automaticamente na pasta do projeto Api.
+
+<hr/>
+
+### Evidências
+
+- Diagrama MER: `docs/MER.png`
+- Esquema físico do banco: `docs/SCHEMA.png`
+
+<hr/>
+
+### Imagem do MER (disponível em docs/MER.png)
+<img width="1044" height="442" alt="image" src="https://github.com/user-attachments/assets/dab5f583-5920-492d-878a-47a09b7f0e5e" />
