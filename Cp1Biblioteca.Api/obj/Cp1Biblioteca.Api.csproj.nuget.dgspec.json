@@ -57,6 +57,12 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[10.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.14, )"
             }
           },
           "imports": [
@@ -1188,6 +1194,9 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
+              "C:\\Chalkboard\\NET\\Cp1Biblioteca\\Cp1Biblioteca.Application\\Cp1Biblioteca.Application.csproj": {
+                "projectPath": "C:\\Chalkboard\\NET\\Cp1Biblioteca\\Cp1Biblioteca.Application\\Cp1Biblioteca.Application.csproj"
+              },
               "C:\\Chalkboard\\NET\\Cp1Biblioteca\\Cp1Biblioteca.Domain\\Cp1Biblioteca.Domain.csproj": {
                 "projectPath": "C:\\Chalkboard\\NET\\Cp1Biblioteca\\Cp1Biblioteca.Domain\\Cp1Biblioteca.Domain.csproj"
               }

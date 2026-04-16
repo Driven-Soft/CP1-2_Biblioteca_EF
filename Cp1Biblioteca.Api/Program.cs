@@ -1,28 +1,33 @@
 using Microsoft.EntityFrameworkCore;
 using Cp1Biblioteca.Application.Services;
+using Cp1Biblioteca.Application.Interfaces.Repositories;
 using Cp1Biblioteca.Infrastructure.Persistence;
+using Cp1Biblioteca.Infrastructure.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Controllers
 builder.Services.AddControllers();
 
-// Service (Content → Book + correção de lifetime)
 builder.Services.AddScoped<IBookService, BookService>();
 
-// OpenAPI
 builder.Services.AddOpenApi();
 
-// DbContext (Recommenda → Biblioteca)
 builder.Services.AddDbContext<BibliotecaContext>(options =>
 {
     var connectionString = builder.Configuration.GetConnectionString("BibliotecaMySQL");
     options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
 });
 
+// Repositórios
+builder.Services.AddScoped<IBookRepository, BookRepository>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<ILoanRepository, LoanRepository>();
+builder.Services.AddScoped<IAuthorRepository, AuthorRepository>();
+builder.Services.AddScoped<IPublisherRepository, PublisherRepository>();
+builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+
 var app = builder.Build();
 
-// Pipeline
 app.MapControllers();
 
 app.Run();

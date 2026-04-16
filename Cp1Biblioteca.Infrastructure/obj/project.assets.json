@@ -431,6 +431,19 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Cp1Biblioteca.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Cp1Biblioteca.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Cp1Biblioteca.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Cp1Biblioteca.Application.dll": {}
+        }
+      },
       "Cp1Biblioteca.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
@@ -1123,6 +1136,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Cp1Biblioteca.Application/1.0.0": {
+      "type": "project",
+      "path": "../Cp1Biblioteca.Application/Cp1Biblioteca.Application.csproj",
+      "msbuildProject": "../Cp1Biblioteca.Application/Cp1Biblioteca.Application.csproj"
+    },
     "Cp1Biblioteca.Domain/1.0.0": {
       "type": "project",
       "path": "../Cp1Biblioteca.Domain/Cp1Biblioteca.Domain.csproj",
@@ -1131,6 +1149,7 @@
   },
   "projectFileDependencyGroups": {
     "net10.0": [
+      "Cp1Biblioteca.Application >= 1.0.0",
       "Cp1Biblioteca.Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 9.0.14",
       "Oracle.EntityFrameworkCore >= 9.23.26100",
@@ -1162,6 +1181,9 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
+            "C:\\Chalkboard\\NET\\Cp1Biblioteca\\Cp1Biblioteca.Application\\Cp1Biblioteca.Application.csproj": {
+              "projectPath": "C:\\Chalkboard\\NET\\Cp1Biblioteca\\Cp1Biblioteca.Application\\Cp1Biblioteca.Application.csproj"
+            },
             "C:\\Chalkboard\\NET\\Cp1Biblioteca\\Cp1Biblioteca.Domain\\Cp1Biblioteca.Domain.csproj": {
               "projectPath": "C:\\Chalkboard\\NET\\Cp1Biblioteca\\Cp1Biblioteca.Domain\\Cp1Biblioteca.Domain.csproj"
             }
